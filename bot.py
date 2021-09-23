@@ -21,7 +21,6 @@ async def on_ready():
 
 @bot.command(name='recent')
 async def _command(ctx):
-    global times_used
     await ctx.send('Please input your TikTok Username')
 
     def check(msg):
